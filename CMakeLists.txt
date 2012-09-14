@@ -57,6 +57,8 @@ INCLUDE(FindCUDA_Local)
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR})
 
 # Generate the executable considering CUDA stuff :)
-CUDA_ADD_EXECUTABLE(osgVolume osgVolume.cpp)
-CUDA_ADD_EXECUTABLE(osgModel osgModel.cpp)
-CUDA_ADD_EXECUTABLE(runOSG runOSG.cpp)
+ADD_EXECUTABLE(osgVolume osgVolume.cpp)
+ADD_EXECUTABLE(osgModel osgModel.cpp)
+ADD_EXECUTABLE(runOSG runOSG.cpp)
+
+
