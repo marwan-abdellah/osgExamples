@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../NVIDIA_GPU_Computing_SDK/C/common/inc/GL/glut.h
+windows.h
+-
+GL/gl.h
+-
+GL/glu.h
+-
+
+/home/abdellah/Software/OSG/runOSG.cpp
+osg/Config
+-
+iostream
+-
+windows.h
+-
+GLUT/glut.h
+-
+GL/glut.h
+-
+osgViewer/Viewer
+-
+osgManipulator/Dragger
+-
+osgViewer/ViewerEventHandlers
+-
+osgGA/TrackballManipulator
+-
+osgDB/ReadFile
+-
+
